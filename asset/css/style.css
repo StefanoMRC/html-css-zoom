@@ -96,3 +96,16 @@ footer{
 .fa-share-from-square{
     color: rgba(75,200,0,255);
 }
+.end{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(74,74,74,255);
+    
+    font-size: 1.5em;
+}
+.end a{
+    color: red;
+    text-decoration: none;
+}
