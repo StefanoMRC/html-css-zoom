@@ -3,15 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 main{
-    height: 100vh;
+    height: calc(100vh - 120px);
     background-color: black;
+    overflow-y: auto;
 }
 .cont-principale{
     width: 90%;
-    height: 80%;
+    height: 100%;
     margin: auto;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
 .row{
     width: 100%;
@@ -36,4 +41,25 @@ main{
     background-color: rgba(128, 128, 128, 0.5);
     color: white;
     padding: 5px;
+}
+footer{
+    height: 100px;
+    background-color: rgba(34,34,34,255);
+}
+.row-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+}
+.icon{
+    height: 50%;
+}
+.txt{
+    height: 50%;
+}
+.icon-2{
+    height: 100%;
 }
