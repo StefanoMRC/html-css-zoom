@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+ 
+}
 main{
-    height: calc(100vh - 120px);
+    height: calc(100vh - 100px);
     background-color: black;
     overflow-y: auto;
 }
@@ -45,21 +47,52 @@ main{
 footer{
     height: 100px;
     background-color: rgba(34,34,34,255);
+    display: flex;
+    justify-content: space-between;
 }
 .row-left{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+}
+.icon-txt{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 100%;
-    width: 10%;
+    align-items: center;
+    
+    color: white;
 }
 .icon{
-    height: 50%;
+    font-size: 2em;
 }
 .txt{
-    height: 50%;
+    font-size: 1.3em;
 }
 .icon-2{
+    font-size: 1.8em;
+    color: white;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.margin{
+    margin-left: 20px;
+}
+.row-center{
+    width: 80%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-3{
+    font-size: 1.8em;
+    color: white;
+}
+.row-center div{
+    margin: 0 10px;
+}
+.fa-share-from-square{
+    color: rgba(75,200,0,255);
 }
