@@ -3,28 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
- 
-}
+
+
 main{
     height: calc(100vh - 100px);
     background-color: black;
-    overflow-y: auto;
+    
 }
+.cont-top{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.speaker a{
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.514);
+    color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+.arrow a{
+    padding: 8px;
+    margin-left: 20px;
+    background-color: rgba(128, 128, 128, 0.514);
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.8em;
+}
+.fa-table{
+    margin-right: 7px;
+}
+.arrow a i{
+    transform: rotate(45deg);
+}
+    
+
 .cont-principale{
     width: 90%;
-    height: 100%;
+    height: 90%;
     margin: auto;
-    padding-top: 30px;
-    overflow: auto;
+    margin-top: 30px;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    
 }
 .row{
     width: 100%;
     height: calc(100%/5);
     display: flex;
+    
     margin-top: 10px;
 }
 .cella{
