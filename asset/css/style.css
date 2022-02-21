@@ -131,6 +131,10 @@ footer{
 .fa-share-from-square{
     color: rgba(75,200,0,255);
 }
+.icon-txt div a{
+    text-decoration: none;
+    color: white;
+}
 .end{
     width: 10%;
     display: flex;
