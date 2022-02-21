@@ -135,6 +135,9 @@ footer{
     text-decoration: none;
     color: white;
 }
+.icon-txt:hover .txt{
+    text-decoration: underline;
+}
 .end{
     width: 10%;
     display: flex;
